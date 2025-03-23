@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Get Into Rose</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="game-scene">
+            <!-- Game visuals will go here -->
+        </div>
+        
+        <div id="dialogue-box" class="hidden">
+            <div id="speaker"></div>
+            <div id="dialogue-text"></div>
+            <div id="dialogue-options"></div>
+        </div>
+        
+        <div id="menu-screen">
+            <h1>Get Into Rose</h1>
+            <p>Can you make it past the doorman into the hottest club in town?</p>
+            <p class="game-objective">Successfully get in with at least TWO different characters to prove you're a true Rose regular!</p>
+            <button id="start-button">Start Game</button>
+        </div>
+        
+        <!-- Character Selection Screen -->
+        <div id="character-select-screen" class="hidden">
+            <h2>Choose Your Character</h2>
+            <div id="character-list">
+                <!-- Character options will be added here dynamically -->
+            </div>
+            <p id="character-description">Select a character to see their description</p>
+            <button id="select-character-button" disabled>Select Character</button>
+            <button id="back-to-menu-button">Back to Menu</button>
+        </div>
+        
+        <div id="game-over-screen" class="hidden">
+            <h2 id="game-over-message"></h2>
+            <button id="restart-button">Try to get in with another character?</button>
+        </div>
+    </div>
+    
+    <!-- Console logger for debugging -->
+    <div id="debug-console" class="hidden" style="display: none;">
+        <pre id="console-log"></pre>
+    </div>
+    
+    <!-- Load game assets -->
+    <script src="debug.js"></script>
+    <script src="characters.js"></script>
+    <script src="game.js"></script>
+</body>
+</html> 

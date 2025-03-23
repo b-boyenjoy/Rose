@@ -1,0 +1,15 @@
+This folder is for game assets like images, sounds, and fonts.
+
+For actual gameplay, you'll want to create or source:
+1. A club exterior background image (place it at assets/club-exterior.png)
+2. Character sprites 
+3. NPC sprites
+4. Sound effects and music
+
+The game currently uses emoji and CSS for visuals, but you can enhance it by adding proper graphical assets.
+
+Example of how to create a simple club-exterior.png:
+- Create an 800x600 image with a dark street background
+- Add neon lighting effects
+- Add a club entrance with "ROSE" in pink neon
+- Save as PNG in this directory 
