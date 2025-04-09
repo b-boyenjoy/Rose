@@ -1,4 +1,5 @@
 # Get Into Rose
+![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/b-boyenjoy/Rose?utm_source=oss&utm_medium=github&utm_campaign=b-boyenjoy%2FRose&labelColor=171717&color=FF570A&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit+Reviews)
 
 A fun browser-based game where you try to get into the hottest club in town! Test your social skills and wit as different characters attempt to convince the doorman to let them in.
 
